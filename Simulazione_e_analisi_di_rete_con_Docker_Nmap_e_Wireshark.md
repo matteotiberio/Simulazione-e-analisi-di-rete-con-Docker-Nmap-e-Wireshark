@@ -103,14 +103,14 @@ Abbiamo fatto una scansione di base usando il comando nmap sul localhost (127.0.
 
 É possibile effettuare scan anche della propria LAN:
 
-[SCREENSHOT_2]
+![](Screenshot_Progetto_Simulazione_Rete_Docker/SCREENSHOT_2.png)
 
 In questo caso ci indica 2 host collegati a questa rete, con i relativi servizi aperti.
 
 
 Adesso andiamo a creare una rete simulata usando Docker:
 
-[SCREENSHOT_3]
+![](Screenshot_Progetto_Simulazione_Rete_Docker/SCREENSHOT_3.png)
 
 Con questo comando si crea una rete Docker di tipo macvlan, utile per simulazioni di rete reali e analisi di sicurezza.
 
@@ -126,7 +126,7 @@ Con questo comando si crea una rete Docker di tipo macvlan, utile per simulazion
 
 Facciamo runnare il nostro container:
 
-[SCREENSHOT_4]
+![](Screenshot_Progetto_Simulazione_Rete_Docker/SCREENSHOT_4.png)
 
 ·	**docker run**: avvia un nuovo container;
 
@@ -143,11 +143,11 @@ Facciamo runnare il nostro container:
 
 Reperiamo l'IP del container:
 
-[SCREENSHOT_5]
+![](Screenshot_Progetto_Simulazione_Rete_Docker/SCREENSHOT_5.png)
 
 Per poi eseguire un ping verso l'IP del  container:
 
-[SCREENSHOT_6]                                         
+![](Screenshot_Progetto_Simulazione_Rete_Docker/SCREENSHOT_6.png)
 
 # Wireshark 
 
@@ -174,7 +174,7 @@ Wireshark permette di:
 
 Andiamo adesso ad analizzare la nostra rete con Wireshark:
 
-[SCREENSHOT_7]
+![](Screenshot_Progetto_Simulazione_Rete_Docker/SCREENSHOT_7.png)
 
 Da questa analisi possiamo vedere una richiesta di ping (protocollo ICMP) dal nostro host (source) 192.169.1.150 al nostro container in rete (destination) con IP 192.168.1.2, il ping é andato a buon fine perché nella parte finale ci viene indicata una reply.
 
