@@ -11,8 +11,8 @@ Questo progetto raccoglie appunti, esempi pratici e screenshot relativi alla sim
 Consulta il file Markdown principale per leggere gli appunti. Le immagini nella cartella `Screenshot_Progetto_Simulazione_Rete_Docker` sono collegate all’interno del documento per illustrare i vari passaggi.
 
 ## Struttura della repository
-- `Simulazione_e_analisi_di_rete_con_Docker_Nmap_e_Wireshark.md` — file principale con i tuoi appunti (modifica il nome se necessario)
-- `Screenshot_Progetto_Simulazione_Rete_Docker/` — cartella contenente gli screenshot
+- `Simulazione_e_analisi_di_rete_con_Docker_Nmap_e_Wireshark.md`
+- `Screenshot_Progetto_Simulazione_Rete_Docker/` 
 
 ## Autore
 Matteo Tiberio
