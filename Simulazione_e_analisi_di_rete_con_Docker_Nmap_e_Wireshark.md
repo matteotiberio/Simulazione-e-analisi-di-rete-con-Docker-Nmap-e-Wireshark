@@ -96,7 +96,8 @@ Ha molte options disponibili, fra cui le piú comuni:
 # Caso pratico: simulazione di Rete con Docker e scansione con nmap
 Iniziamo con una scansione del loopback:
 
-[SCREENSHOT_1]
+![](Screenshot_Progetto_Simulazione_Rete_Docker/SCREENSHOT_1.png)
+
 
 Abbiamo fatto una scansione di base usando il comando nmap sul localhost (127.0.0.1), come risultato ci sono state fornite i nostri servizi aperti e le relative porte.
 
@@ -107,7 +108,7 @@ Abbiamo fatto una scansione di base usando il comando nmap sul localhost (127.0.
 In questo caso ci indica 2 host collegati a questa rete, con i relativi servizi aperti.
 
 
-Adesso andiamo a creare una rete simulata usando Docker:  
+Adesso andiamo a creare una rete simulata usando Docker:
 
 [SCREENSHOT_3]
 
